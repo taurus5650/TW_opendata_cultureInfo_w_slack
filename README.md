@@ -1,8 +1,7 @@
 # tw_culture_opendata_w_slack
 
 ### Intro
-- May through to s
-- lack bot knowing Taiwan concert / event's information.
+- May through to slack bot getting Taiwan concert / event's information.
 - Open dataset from Ministry of Culture (https://opendata.culture.tw/frontsite/openData/detail?datasetId=274)
 
 ![final_result.png](result_readme%2Ffinal_result.png)
@@ -32,9 +31,10 @@ pip install -r requirement
 ![SLACK_APP_TOKEN.png](result_readme%2FSLACK_APP_TOKEN.png)
 - b. Command in venv
 ```commandline
-export SLACK_BOT_TOKEN = xoxb - xxxxx
-export SLACK_APP_TOKEN = xapp - xxxxx
+export SLACK_BOT_TOKEN=xoxb-xxxxx
+export SLACK_APP_TOKEN=xapp-xxxxx
 ```
+![export_cli.png](result_readme%2Fexport_cli.png)
 
 5. Started the code
 ```commandline
