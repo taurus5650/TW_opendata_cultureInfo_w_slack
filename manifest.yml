@@ -1,0 +1,81 @@
+display_information:
+  name: shyin-bot
+  background_color: "#6280a8"
+features:
+  app_home:
+    home_tab_enabled: true
+    messages_tab_enabled: true
+    messages_tab_read_only_enabled: false
+  bot_user:
+    display_name: shyin-bot
+    always_online: true
+  shortcuts:
+    - name: short
+      type: global
+      callback_id: views_open
+      description: views_open
+  slash_commands:
+    - command: /ip
+      description: ip address
+      should_escape: false
+oauth_config:
+  scopes:
+    user:
+      - channels:history
+      - channels:read
+      - channels:write
+      - chat:write
+      - emoji:read
+      - im:read
+      - im:write
+      - groups:history
+      - im:history
+      - mpim:history
+    bot:
+      - app_mentions:read
+      - channels:history
+      - channels:join
+      - channels:manage
+      - channels:read
+      - chat:write.customize
+      - chat:write.public
+      - chat:write
+      - files:read
+      - files:write
+      - groups:history
+      - groups:read
+      - groups:write
+      - im:history
+      - im:read
+      - im:write
+      - links:read
+      - links:write
+      - mpim:history
+      - mpim:read
+      - mpim:write
+      - pins:read
+      - pins:write
+      - reactions:read
+      - reactions:write
+      - reminders:read
+      - reminders:write
+      - team:read
+      - usergroups:read
+      - usergroups:write
+      - users:read
+      - users:write
+      - users.profile:read
+      - commands
+      - metadata.message:read
+      - incoming-webhook
+settings:
+  event_subscriptions:
+    bot_events:
+      - message.channels
+      - message.im
+      - message.mpim
+  interactivity:
+    is_enabled: true
+  org_deploy_enabled: false
+  socket_mode_enabled: true
+  token_rotation_enabled: false
