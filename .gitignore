@@ -158,6 +158,10 @@ backup_learning
 
 .DS_Store
 
+Procfile
+.dockerignore
+fly.toml
+
 
 # PyCharm
 #  JetBrains specific template is maintained in a separate JetBrains.gitignore that can
