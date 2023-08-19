@@ -3,9 +3,7 @@
 ### Intro
 - May through to slack bot getting Taiwan concert / event's information.
 - Open dataset from Ministry of Culture (https://opendata.culture.tw/frontsite/openData/detail?datasetId=274)
-
-![final_result.png](result_readme%2Ffinal_result.png)
-
+![Screen Recording 2023-08-13 at 9.02.52 PM.gif](result_readme%2FScreen%20Recording%202023-08-13%20at%209.02.52%20PM.gif)
 
 ### Setup
 1. Create virtual env and active venv
@@ -42,4 +40,4 @@ python3 app.py
 ```
 
 6. User able input "concert" / "event" / "exhibition" to get information
-- [Screen Recording 2023-08-13 at 9.02.52 PM.mov](result_readme%2FScreen%20Recording%202023-08-13%20at%209.02.52%20PM.mov)
+- ![final_result.png](result_readme%2Ffinal_result.png)
