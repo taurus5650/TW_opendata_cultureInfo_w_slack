@@ -160,7 +160,6 @@ backup_learning
 
 Procfile
 .dockerignore
-fly.toml
 
 
 # PyCharm
